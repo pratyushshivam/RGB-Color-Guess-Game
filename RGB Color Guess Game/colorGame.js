@@ -97,7 +97,7 @@ for(var i = 0; i < squares.length; i++){
 
 
 function changeColors(color){
-	//loop thru all squares
+	//loop through all squares
 	for(var i=0;i<squares.length;i++){
 		squares[i].style.background=color;
 	}
