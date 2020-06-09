@@ -1,0 +1,88 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/398464/pexels-photo-398464.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500://images.pexels.com/photos/4215070/https://images.pexels.com/photos/398464/pexels-photo-398464.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500-photo-4215070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    font-family: Chelsea Market;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float:left;
+    margin:1.66%;
+    -webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomright: 100px;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+    transition: background 0.6s;
+
+}
+#container{
+    margin:20px auto;
+    max-width: 600px;
+}
+h1{
+    text-align: center;
+    background-color:transparent;
+    color:white;
+    margin:0;
+    font-weight: normal;
+    line-height: 1.1;;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+#stripe{
+    background-color:transparent;
+    height:30px;
+    text-align: center;
+   width:90%;
+   margin:auto;
+
+}
+.selected{
+    color:white;
+    background:gold;
+
+}
+#colorDisplay{
+    font-size: 200%;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color:gold;
+    letter-spacing: 1px;
+    transition:all 0.4s;
+    outline: none;
+
+}
+#message{
+    display:inline-block;
+    width: 20%;
+}
+button:hover{
+    color:white;
+    background-color: gold;
+    
+}
+.square:hover{
+    -webkit-border-top-left-radius: 60px;
+-webkit-border-bottom-right-radius: 60px;
+-moz-border-radius-topleft: 60px;
+-moz-border-radius-bottomright: 60px;
+border-top-left-radius:60px;
+border-bottom-right-radius: 60px;
+}
+
+
+#message{
+    color:orange;
+    font-size: 15px;
+}
